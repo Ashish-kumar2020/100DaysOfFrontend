@@ -6,3 +6,4 @@
 
 
 ## Day 1:  Flexbox and its properties
+## Day 2:  Grid and its properties
