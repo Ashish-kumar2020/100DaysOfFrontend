@@ -1,0 +1,16 @@
+.electronics{
+    height: 380px;
+  
+    margin: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+
+.electronics-item{
+    height: 290px;
+    width: 250px;
+    background-color: black;
+    margin: 16px;
+}

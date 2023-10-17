@@ -1,0 +1,19 @@
+.options-selector{
+    height: 180px;
+    margin: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options-list{
+    height: 160px;
+    width: 140px;
+    margin: 11px;
+    cursor: pointer;
+}
+
+.options-text{
+    margin-left: 39px;
+    font-family: Popins;
+}
