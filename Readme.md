@@ -15,6 +15,7 @@
 ## Day 4: Object and array destructring properties
 
 ## Day 5: Stated learning React
-
-            1- create a basic page using html and smae with javascript
-            
+            1- created a basic page using html and smae with javascript
+            2- Created a basic page using react without using JSX
+            3- Add react to the page using CDN link
+            4- create heading and div using React.createElement
