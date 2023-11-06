@@ -1,3 +1,91 @@
-#head{
-    color: blue;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.details-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.list{
+    margin-right: 80px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-container img{
+    height: 150px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+
+
+/*------------------------------------------ Search -----------------------------------------------*/
+
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.search-container input{
+    width: 400px;
+    height: 40px;
+    padding: 12px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+}
+
+.search-btn{
+    margin-left: 20px;
+    height: 40px;
+    width: 80px;
+    border-radius: 4px;
+}
+
+/*------------------------------------------ Body -----------------------------------------------*/
+.mainbody-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*------------------------------------------ Restaurant Card -----------------------------------------------*/
+
+.body-container{
+    margin-top: 30px;
+    margin-left: 65px;
+}
+
+.foodcardlogo-container{
+    width: 280px;
+    height: 350px;
+    border: 2px solid black;
+
+   margin-bottom: 12px;
+}
+
+.comany-name{
+    height: 200px;
+    padding: 10px;
+    width: 275px;
+}
+
+.heading3{
+    margin-bottom: 12px;
+    margin-left: 12px;
 }
