@@ -26,3 +26,10 @@
     -- in react data only flows in one way top to bottom
     -- data can only be passed from parent to child components
     -- benefit of one way data flow - it makes application more predictable and easier to understand
+
+## Rules for JSX
+
+    -- JSX Works essentially like HTML, but we can enter Javascript mode by using {}
+    -- We can place javascript expression inside {}
+    -- Statements not allowed
+    -- JSX Produces a javascript expression
