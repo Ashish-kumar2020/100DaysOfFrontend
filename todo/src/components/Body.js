@@ -24,6 +24,9 @@ const Body = () => {
             color="cyan"
             appearance="primary"
             style={{ width: 200, height: 100, borderRadius: 22 }}
+            onClick={() => {
+              navigate("/todaytasks");
+            }}
           >
             TODAY
           </Button>
@@ -31,6 +34,9 @@ const Body = () => {
             color="yellow"
             appearance="primary"
             style={{ width: 200, height: 100, borderRadius: 22 }}
+            onClick={() => {
+              navigate("/alltasks");
+            }}
           >
             ALL TASKS
           </Button>
