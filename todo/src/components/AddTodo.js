@@ -28,7 +28,7 @@ const AddTodo = () => {
   const removeTodo = (index) => {
     const updatedList = displayTodo.filter((_, i) => i !== index);
     setDisplayTodo(updatedList);
-    setTodos(updatedList); // Update state as well
+    setTodos(updatedList);
     localStorage.setItem("todos", JSON.stringify(updatedList));
   };
 
@@ -38,7 +38,7 @@ const AddTodo = () => {
       <div className="todo-body">
         <Input
           as="textarea"
-          rows={3}
+          rows={1}
           placeholder="Add Todo..."
           value={newTodo}
           onChange={(e) => setNewTodo(e)}
@@ -48,7 +48,7 @@ const AddTodo = () => {
           <Button
             color="blue"
             appearance="primary"
-            style={{ marginLeft: 30, width: 150, height: 70 }}
+            style={{ marginLeft: 30, width: 110, height: 30 }}
             onClick={addTodo}
           >
             Add Todo

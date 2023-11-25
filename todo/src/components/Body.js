@@ -44,6 +44,9 @@ const Body = () => {
             color="red"
             appearance="primary"
             style={{ width: 200, height: 100, borderRadius: 22 }}
+            onClick={() => {
+              navigate("/upcomingtask");
+            }}
           >
             UPCOMMING
           </Button>
