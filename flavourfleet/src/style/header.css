@@ -1,0 +1,31 @@
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8fcfb;
+}
+
+.logo img {
+    width: 80px;
+    margin-left: 60px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 26px;
+}
+
+ul li {
+    margin-right: 54px;
+}
+
+ul li:hover,
+li.scaled {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    /* Add a smooth transition effect */
+}
