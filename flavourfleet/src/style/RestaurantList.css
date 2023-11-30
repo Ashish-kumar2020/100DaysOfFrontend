@@ -1,0 +1,69 @@
+/* RestaurantList.css */
+
+.resList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.resCard {
+    box-sizing: border-box;
+    width: 290px;
+    /* Set the width for each card */
+    height: 390px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.resCard:hover {
+    transform: scale(1.02);
+}
+
+.resImage {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.resDetails {
+    padding: 16px;
+}
+
+.resName {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.resArea {
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.resRatingCost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+    width: 226px;
+}
+
+.resRating {
+    color: #e44d26;
+    font-weight: bold;
+}
+
+.resCost {
+    color: #555;
+}
+
+.resCuisines {
+    color: #777;
+    margin-top: 10px;
+}
