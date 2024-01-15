@@ -6,7 +6,7 @@ const RestaurantCardLayout = (props) => {
 
   const { cloudinaryImageId, name, avgRating, cuisines, costForTwo, sla } =
     resData?.info;
-  console.log(name);
+
   return (
     <div className="relative border-solid border-2 w-[300px] h-[350px] p-[22px] mr-[25px] mt-[12px] shadow-md transition-transform transform hover:scale-95 cursor-pointer z-10 hover:z-20 ">
       <img
