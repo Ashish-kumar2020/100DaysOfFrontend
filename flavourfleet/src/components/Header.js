@@ -8,7 +8,7 @@ const Header = () => {
           <img
             src={Logo}
             alt="Company Logo"
-            className="h-[80px] ml-[35px] p-[7px]"
+            className="h-[80px] ml-[35px] p-[7px] cursor-pointer"
           />
         </div>
         <div className="flex-grow">
