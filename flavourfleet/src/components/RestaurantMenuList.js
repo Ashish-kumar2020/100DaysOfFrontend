@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import RestaurantCardLayout from "./RestaurantCardLayout";
 
 import { SWIGGY_API } from "../utils/Constants";
+import Shimmer from "./Shimmer";
 
 const RestaurantMenuList = () => {
   const [restaurantData, setRestaurantData] = useState([]);
@@ -34,7 +35,10 @@ const RestaurantMenuList = () => {
     };
     fetchRestaurantData();
   }, []);
-  return (
+
+  return restaurantData.length === 0 ? (
+    <Shimmer />
+  ) : (
     <>
       {/* search Container */}
       <div className="ml-[40%] mt-[20px]">
