@@ -1,14 +1,26 @@
 import "./App.css";
 import Header from "./components/Header";
 import RestaurantMenuList from "./components/RestaurantMenuList";
-
+import { createBrowserRouter, Outlet } from "react-router-dom";
 function App() {
   return (
     <>
       <Header />
-      <RestaurantMenuList />
+      <Outlet />
     </>
   );
 }
 
+export const AppRouter = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <RestaurantMenuList />,
+      },
+    ],
+  },
+]);
 export default App;
