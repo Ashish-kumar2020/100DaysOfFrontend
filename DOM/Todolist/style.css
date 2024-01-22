@@ -1,0 +1,95 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#heading {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+#input-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#input-textarea {
+    padding: 8px;
+    font-size: 16px;
+}
+
+#todos-list {
+    margin-top: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Center items vertically in the flex container */
+}
+
+.todo-item {
+    display: flex;
+    /* Use flexbox to layout the items in a row */
+    justify-content: center;
+    /* Center the items horizontally */
+    align-items: center;
+    /* Center the items vertically */
+    margin-bottom: 10px;
+}
+
+.list-item {
+    width: 160px;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    /* Add some space between the list item and the button */
+}
+
+.delete-button {
+    background-color: #ff6161;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    margin-right: 30px;
+}
+
+.delete-button:hover {
+    background-color: #ff4040;
+}
+
+button {
+    background-color: #ff6161;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #ff4040;
+}
